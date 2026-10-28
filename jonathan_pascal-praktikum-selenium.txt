@@ -1,0 +1,4 @@
+Nama Lengkap : Jonathan Pascal
+Bootcamp     : SQA Automation with AI Development
+Batch        : Batch 30
+Repo Github  : https://github.com/jonathanpascal2010-coder/jpautomation
