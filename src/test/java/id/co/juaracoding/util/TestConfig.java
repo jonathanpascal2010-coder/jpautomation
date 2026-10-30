@@ -9,6 +9,17 @@ public class TestConfig {
     public static final String BASE_URL = System.getProperty("baseUrl", "http://localhost:9090");
 
     /**
+     * Base URL untuk REST API backend Simple Apps (mereferensikan BASE_URL).
+     */
+    public static final String BASE_API_URL = BASE_URL;
+
+    /**
+     * Header X-API-KEY lisensi tetap Simple Apps (README.md & API-CONTRACT.docx).
+     * Wajib dikirim di setiap pemanggilan endpoint /api/v1/*.
+     */
+    public static final String X_API_KEY = "d461265dd7323fef9755bb3257275d67";
+
+    /**
      * Kunci Lisensi aktivasi aplikasi Simple Apps (README.docx §3).
      */
     public static final String LICENSE_KEY = "d461265dd7323fef9755bb3257275d67";
