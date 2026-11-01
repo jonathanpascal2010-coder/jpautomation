@@ -8,3 +8,4 @@ target/
 config/
 logs/
 uploads/
+*.ps1
