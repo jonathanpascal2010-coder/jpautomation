@@ -21,4 +21,15 @@
             <class name="id.co.juaracoding.restassured.ForgotPasswordApiTest"/>
         </classes>
     </test>
+    <!-- Praktikum Berseri #4: Cucumber BDD -->
+    <test name="TestCucumberWeb">
+        <classes>
+            <class name="id.co.juaracoding.cucumber.web.CucumberWebRunner"/>
+        </classes>
+    </test>
+    <test name="TestCucumberApi">
+        <classes>
+            <class name="id.co.juaracoding.cucumber.api.CucumberApiRunner"/>
+        </classes>
+    </test>
 </suite>

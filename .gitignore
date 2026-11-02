@@ -9,3 +9,4 @@ config/
 logs/
 uploads/
 *.ps1
+.playwright-mcp/
